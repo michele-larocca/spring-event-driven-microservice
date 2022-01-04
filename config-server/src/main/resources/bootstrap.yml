@@ -5,6 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: file:///E:/LavoroMichele/workspace/Courses/Spring/config-server-repository
+          uri: https://github.com/michele-larocca/spring-cloud-config-server-repository.git
+          default-label: main
+          username: michele.larocca
+          password: *********************************
+          #uri: file:///E:/work/workspace/Spring/spring-cloud-config-server-repository
           clone-on-start: true
     fail-fast: true
