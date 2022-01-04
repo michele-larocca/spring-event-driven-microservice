@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-
-    <property name="DEV_LOG" value="./twitter-kafka/logs" />
-    <property name="NAME_LOG" value="twitter-kafka" />
+    <property name="DEV_LOG" value="./config-server/logs" />
+    <property name="NAME_LOG" value="config-server" />
 
     <include resource="logback-common.xml" />
-
 </configuration>
