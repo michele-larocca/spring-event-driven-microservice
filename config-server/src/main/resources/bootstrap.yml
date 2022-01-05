@@ -8,7 +8,11 @@ spring:
           uri: https://github.com/michele-larocca/spring-cloud-config-server-repository.git
           default-label: main
           username: michele.larocca
-          password: *********************************
+          password: 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
           #uri: file:///E:/work/workspace/Spring/spring-cloud-config-server-repository
           clone-on-start: true
     fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: spring_cloud_Pwd!!!
